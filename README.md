@@ -10,7 +10,7 @@ Get some pupular movie based on category which popular, nowplaying and upcoming 
 Tap to get detail and reviews
 ```
 ## API Used
-moviedb.com
+themoviedb.org
 ## Architecture
 
 MVC (Model, View, Controller)
