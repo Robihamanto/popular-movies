@@ -175,14 +175,6 @@ extension MoviesVC: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
-    }
-    
-//    private func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> UIEdgeInsets {
-//        let cellWidthPadding = collectionView.frame.size.width / 30
-//        let cellHeightPadding = collectionView.frame.size.height / 4
-//        return UIEdgeInsets(top: cellHeightPadding,left: cellWidthPadding,
-//                            bottom: cellHeightPadding,right: cellWidthPadding)
-//    }
-    
+    }    
     
 }
