@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class Review {
+    private (set) public var author: String!
+    private (set) public var review: String!
+    
+    init(_ author: AnyObject, _ review: AnyObject) {
+        self.author = author as? String
+        self.review = review as? String
+    }
+    
+}

@@ -9,11 +9,11 @@
 import UIKit
 
 class MovieCell: UICollectionViewCell {
-    @IBOutlet weak var moviePoster: UIImageView!
-    
-    func initData(_ imageName: String){
-        self.moviePoster.image = UIImage(named: imageName)
-        print("Init called")
+    override init(frame: CGRect) {
+        super.init(frame: frame)
     }
     
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

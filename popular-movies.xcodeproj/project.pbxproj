@@ -16,6 +16,11 @@
 		F43659001FDC231B00EBEC23 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43658FF1FDC231B00EBEC23 /* Constans.swift */; };
 		F43659021FDC2DEF00EBEC23 /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43659011FDC2DEF00EBEC23 /* MoviesVC.swift */; };
 		F43659041FDC2E7500EBEC23 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43659031FDC2E7500EBEC23 /* MovieCell.swift */; };
+		F43659071FDC568E00EBEC23 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43659061FDC568E00EBEC23 /* Movie.swift */; };
+		F43659091FDCDABD00EBEC23 /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43659081FDCDABD00EBEC23 /* MovieDetailVC.swift */; };
+		F436590B1FDD1B0E00EBEC23 /* MovieReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F436590A1FDD1B0E00EBEC23 /* MovieReviewsVC.swift */; };
+		F436590D1FDD1C7200EBEC23 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F436590C1FDD1C7200EBEC23 /* ReviewCell.swift */; };
+		F436590F1FDD1F1B00EBEC23 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = F436590E1FDD1F1B00EBEC23 /* Review.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		F43658FF1FDC231B00EBEC23 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		F43659011FDC2DEF00EBEC23 /* MoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
 		F43659031FDC2E7500EBEC23 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		F43659061FDC568E00EBEC23 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F43659081FDCDABD00EBEC23 /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
+		F436590A1FDD1B0E00EBEC23 /* MovieReviewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReviewsVC.swift; sourceTree = "<group>"; };
+		F436590C1FDD1C7200EBEC23 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		F436590E1FDD1F1B00EBEC23 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 		F43658E81FDC05E300EBEC23 /* popular-movies */ = {
 			isa = PBXGroup;
 			children = (
+				F43659051FDC567E00EBEC23 /* Model */,
 				F43658FE1FDC077900EBEC23 /* Utilities */,
 				F43658FD1FDC076800EBEC23 /* Services */,
 				F43658FC1FDC076200EBEC23 /* Controller */,
@@ -101,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F43659031FDC2E7500EBEC23 /* MovieCell.swift */,
+				F436590C1FDD1C7200EBEC23 /* ReviewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -110,6 +122,8 @@
 			children = (
 				F43658EB1FDC05E300EBEC23 /* ViewController.swift */,
 				F43659011FDC2DEF00EBEC23 /* MoviesVC.swift */,
+				F43659081FDCDABD00EBEC23 /* MovieDetailVC.swift */,
+				F436590A1FDD1B0E00EBEC23 /* MovieReviewsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -127,6 +141,15 @@
 				F43658FF1FDC231B00EBEC23 /* Constans.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F43659051FDC567E00EBEC23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F43659061FDC568E00EBEC23 /* Movie.swift */,
+				F436590E1FDD1F1B00EBEC23 /* Review.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43659091FDCDABD00EBEC23 /* MovieDetailVC.swift in Sources */,
 				F43658EC1FDC05E300EBEC23 /* ViewController.swift in Sources */,
 				F43659021FDC2DEF00EBEC23 /* MoviesVC.swift in Sources */,
+				F43659071FDC568E00EBEC23 /* Movie.swift in Sources */,
+				F436590D1FDD1C7200EBEC23 /* ReviewCell.swift in Sources */,
+				F436590F1FDD1F1B00EBEC23 /* Review.swift in Sources */,
 				F43658EA1FDC05E300EBEC23 /* AppDelegate.swift in Sources */,
+				F436590B1FDD1B0E00EBEC23 /* MovieReviewsVC.swift in Sources */,
 				F43659041FDC2E7500EBEC23 /* MovieCell.swift in Sources */,
 				F43659001FDC231B00EBEC23 /* Constans.swift in Sources */,
 			);

@@ -9,16 +9,12 @@
 import UIKit
 
 class ReviewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    @IBOutlet weak var contentTextView: UITextView!
+    
+    func updateView(_ author: String, _ content: String) {
+        contentTextView.text = content
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
 
 }
