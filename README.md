@@ -7,7 +7,7 @@ Popular Movies
 ## popular-movie
 Get some pupular movie based on category which popular, nowplaying and upcoming movie
 ```
-Double tap to get detail and reviews
+Tap to get detail and reviews
 ```
 ## API Used
 moviedb.com
